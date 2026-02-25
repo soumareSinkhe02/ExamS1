@@ -1,0 +1,88 @@
+body {
+    background-color: lightgray;
+    font-size: 12px;
+    font-family: arial, sans-serif;
+}
+
+/* Section qui centre le formulaire */
+section {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+/* Formulaire */
+form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 420px;
+}
+
+fieldset {
+    border-radius: 10px;
+    padding: 15px;
+}
+
+legend {
+    font-weight: bold;
+}
+
+/* Div label + input */
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 12px;
+}
+
+/* Labels en gras */
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+/* Champs de saisie */
+input,
+select {
+    padding: 6px;
+    border-radius: 5px;
+    border: 1px solid #999;
+}
+
+/* Radios */
+.radio-group {
+    display: flex;
+    gap: 15px;
+}
+
+.radio-group label {
+    font-weight: normal;
+}
+
+/* Boutons */
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+button {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"] {
+    background-color: green;
+    color: white;
+}
+
+button[type="reset"] {
+    background-color: red;
+    color: white;
+}
+
+button:hover {
+    opacity: 0.8;
+}
